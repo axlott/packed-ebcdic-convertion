@@ -9,7 +9,7 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT FILEO ASSIGN "E:\axelo\Desktop\Scripts\COBOL\filo.txt"
+           SELECT FILEO ASSIGN "your-file.txt"
            ORGANISATION SEQUENTIAL
            ACCESS MODE IS SEQUENTIAL
            FILE STATUS IS FS-FILEO.

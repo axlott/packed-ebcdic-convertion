@@ -8,8 +8,7 @@ def unpack(mypacked):
 
 
 if __name__ == '__main__':
-    file = open("E:/axelo/Desktop/Scripts/COBOL/filo.txt","r",encoding="cp1141")
-    #file = open("your-file.txt",'r',encoding="cp1141")
+    file = open("your-file.txt",'r',encoding="cp1141")
     list=[]
     for line in file:
         print(unpack(line))
